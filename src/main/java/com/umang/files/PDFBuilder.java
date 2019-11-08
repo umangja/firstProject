@@ -324,7 +324,7 @@ public class PDFBuilder extends AbstractITextPdfView {
         Paragraph preface = new Paragraph();
         addEmptyLine(preface, 2);
         
-	    String imageUrl = "http://umangmedical.herokuapp.com/MedicalCompany/resources/images/logo.png";
+	    String imageUrl = "http://umangmedical.herokuapp.com/resources/images/logo.png";
 	    Image image2 = Image.getInstance(new URL(imageUrl));
 	    image2.setAbsolutePosition(20f, 675f);
 	    image2.scaleAbsolute(200, 200);
