@@ -1,0 +1,53 @@
+﻿DBMS Project 
+
+
+NAME   :  Umang jain
+Roll No :  17074016
+Branch : CSE(IDD)
+
+
+Client Name                 :  Mr Anil Jain
+Client Business Idea: A startup in emerging phase of medicine distributing                    company.
+Client Location            : Panipat
+
+
+Overview About Client
+Client owns a startup in medical sector which is a medicine distributing company. It acts as a wholesaler for local medical stores and hospital medical stores. It gets its medicines directly from company and then distributes to local shops in cities. Clients himself also own a store so he also sells medicines to individuals patients.Client uses his 2 story house as inventory base. which has multiple rooms and each room divided into two columns each column has some selves that can contain cartons. Clients currently has low number of employees but he stills want a proper employee management system for future. Client plans to later take his business online and to start selling medicines online to the partner so that it becomes easy for both parties to do business. 
+
+
+Client Requirement
+
+
+* Client wants a very simple website so that a layman with no prior knowledge of technical knowledge can learn to use website effectively.
+
+
+Inventory Management System
+* Client is starting up a medicine distributing company based in panipat for which it requires a Database Management system to manage its inventory. Client requires to retrieve all details about a medicine. Details include medicine id, medicine names,company name that is producing this medicine, medicine location in inventory building, diseases it can cure, the side effects of this medicine, drugs used in medicine and its percentage,whether it is in stock or not, number of cartons available currently at stock,expiration date of the carton,MRP,etc.
+* Clients requires to be able to retrieve list of medicines by the diseases they cure, by the side effects they cause, all medines having stocks less than a particular quantity, by medicine company,etc 
+* Clients has a multi story building as an inventory house. Building will be distributed in rows and columns and each ordered pair (row, column) will contain a carton of a type of medicine.
+
+
+Transaction Management System
+* Clients will be selling medicines to different  pharmaceutical stores across the city and to individuals patients also. Clients requires a transaction management systems that can give details of any transaction  by its date or by the partner id or patients name. Client can accept payment either by cash or by cheque or some other means so proper mechanism should be there to store transaction log. Clients also requires that a proper bill can be generated once he enters all the necessary details about the medicines and customer(partner). The Transaction Management system should include bill no,Customer (Partner/patients), Date of purchase ,Time of purchase, Medicines purchased, total transaction amount, quantity of each medicine purchased, doctor,mode of payment,cheque number(if cheque is given).
+
+
+Employee and Customer Management System
+* Clients also wants a proper employee management system to retrieve details about its employee like  employee id, employee name, employee date of joining, employee post, employee income, employee last promotion, employee Date Of Birth, employee leaves left, employee manager. Each employee is assumed to have a manager.
+* Client also want that we should be able to sort employees based on their income of date of joining and last promotion. He also wants that we should be able to get the details of all employees managed by a particular employee.
+* Clients also wants a systems to manage is customers(both individuals patients and business partners) . For partner we should store partner name, partner shop id,partner shop address, partner phone number. Address should be complete including shop number, street name, colony name, landmark, city , pincode, state. Each partner should be uniquely identified by its shops address and owners name or shops name. We should also store info about individuals patients that come to our shop.
+
+
+Other Details
+* Clients asked me if any numbers like rarity of a diseased is required used standards from AIIMS data.
+* Client also requires to sort partner by the total amount of medicine they purchased so that gift can be distributed by month end.
+* Client also want to get notification whenever some medicine becomes expired so that he can throw that medicine out of stock. Every morning expired medicines will be thrown out so corresponding changes must take place accordingly in the database. Client only sells complete packets of medicines to the stops. And he receives a carton from the company consisting of many packets. So each packet has the same expiration date. Also due to financial issues Client only buys new inventory when stock is out means he do not order when stock of a particular medicine goes below a limit instead he only order when stock becomes zero. 
+* Client also wants that order above a particular value(that he will be providing me later) should automatically be discounted 5%. Their should   also be option to adjust this value
+* Clients wants that in final bill GST and other taxes should be included automatically and final amount should be rounded up.
+
+
+
+
+ADDITIONAL FEATURES
+* A simple online ordering mechanism for its partners so that they can order conveniently. This should be kept very simple as only regular partner are targeted audience. So we need not make it look good to attract audience. But it should be completely lag free and smooth experience. It should include very basic stuff like medicines required and their quantity. 
+* A chat portal, where the user enters some of their details and puts their queries or concerns in the message dialog box.  The client can check for any such pending queries on their account and answer to them. Client should get a notification whenever such a query appear so that he can answer it ASAP.
+* Client also wants that on the website itself some lucky draw kind of competition between top 5 partners for a prize every month.

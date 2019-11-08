@@ -1,0 +1,40 @@
+Mysql User details:
+
+	CREATE user 'umang'@'localhost' identified by 'umangjain';
+	
+	GRANT ALL PRIVILEGES ON *.* to 'umang'@'localhost';
+	
+	Source /home/umang/eclipse-workspace2/MedicalCompany/database.sql
+	
+	
+	
+	
+Work to Do:
+
+	1. Create user with above credentials;
+	2. Create Database Using database.sql
+	3. In Second Method Of PDFbuilder change path of downloaded file  :  /home/umang/eclipse-workspace2/MedicalCompany/src/main/resources/downloaded_bills/
+
+Versions:
+	
+	1.mysql = 5.7.27
+	2.pc java version = openjdk 11.0.4
+	3.eclipse version = 4.13
+	4.Tomcat v8.5 at Local host
+	5.workspace used 5
+	
+Admin Credentials:
+	username = admin
+	password = admin
+	
+	
+Features:
+	1. Expired Medicines get removed automatically;
+	2. When cutting bill, medicines are reduced in stock
+	3. verification of each thing is must
+	4. bill automatically gets discounted and gst  are also automatically accumodated.
+	5. top most profiles of each month can be seen.
+	6. Password are hashed.
+	7. verification of medicines stock is required at billing ant ordering.
+	8. Forget Password Implemented with token sent on email.
+
