@@ -32,9 +32,9 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<beans:property name="url"
-			value="jdbc:mysql://localhost:3306/MedicalStore?useSSL=false" />
-		<beans:property name="username" value="umang" />
-		<beans:property name="password" value="umangjain" />
+			value="jdbc:mysql://remotemysql.com:3306/ecrdochEqm?useSSL=false" />
+		<beans:property name="username" value="ecrdochEqm" />
+		<beans:property name="password" value="v0IBXwag56" />
 	</beans:bean>
 
  <beans:bean id="customSuccessHandler" class="com.umang.CustomHandler"/>
