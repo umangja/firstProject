@@ -291,7 +291,7 @@ public class PDFBuilder extends AbstractITextPdfView {
 		int bill_id = (Integer) model.get("bill_id");
 		
 		
-        PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream("/home/umang/eclipse-workspace2/MedicalCompany/src/main/resources/downloaded_bills/"+bill_id));
+        PdfWriter writer = PdfWriter.getInstance(doc,new FileOutputStream(""+bill_id));
         writer.setViewerPreferences(getViewerPreferences());
 		doc.open();
 		
@@ -324,7 +324,7 @@ public class PDFBuilder extends AbstractITextPdfView {
         Paragraph preface = new Paragraph();
         addEmptyLine(preface, 2);
         
-	    String imageUrl = "http://localhost:8080/MedicalCompany/resources/images/logo.png";
+	    String imageUrl = "http://umangmedical.herokuapp.com/MedicalCompany/resources/images/logo.png";
 	    Image image2 = Image.getInstance(new URL(imageUrl));
 	    image2.setAbsolutePosition(20f, 675f);
 	    image2.scaleAbsolute(200, 200);
