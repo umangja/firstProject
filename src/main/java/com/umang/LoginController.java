@@ -204,7 +204,7 @@ public class LoginController {
     		ApplicationContext context =new ClassPathXmlApplicationContext("Spring-Mail.xml");
            	MailMail mm = (MailMail) context.getBean("mailMail");
           
-           	String mess = "To complete the password reset process, please click here:"+"http://localhost:8080/MedicalCompany/confirm-reset?token="+tokken;
+           	String mess = "To complete the password reset process, please click here:"+"http://umangmedical.herokuapp.com/confirm-reset?token="+tokken;
             mm.sendMail("codeforcees@gmail.com",
            		   request.getParameter("email"),
            		   "Complete Password Reset!", 
