@@ -14,7 +14,8 @@ Work to Do:
 	1. Create user with above credentials;
 	2. Create Database Using database.sql
 	3. In Second Method Of PDFbuilder change path of downloaded file  :  /home/umang/eclipse-workspace2/MedicalCompany/src/main/resources/downloaded_bills/
-
+	4. In MedicalCompany/src/main/resources/spring-mail.xml update your username and password. Also setup gmail account
+	
 Versions:
 	
 	1.mysql = 5.7.27
